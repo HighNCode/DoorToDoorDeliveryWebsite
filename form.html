@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Details</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Food Delivery</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="userprofile">
+                <button class="user-profile-button">Profile</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="form-section form-container">
+        <h2>Delivery Details</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="payment">Payment Option:</label>
+                <select id="payment" name="payment" required>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Submit Order</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Food Delivery</p>
+    </footer>
+</body>
+</html>
