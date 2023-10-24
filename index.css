@@ -9,6 +9,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+
 }
 
 .logo {
@@ -58,4 +59,49 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+
+
+/* Hanz code */
+
+.userprofile {
+    position: relative;
+    display:inline-block;
+}
+  
+  /* Style for the button */
+.user-profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if the screen is too narrow */
+    justify-content: space-between; /* Spread items evenly horizontally */
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    flex: 1;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text within menu items */
+}
+
+.menu-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px; /* Add some space below the item name */
+}
+
+.menu-item .price {
+    color: #ff5722;
+    font-weight: bold; /* Make prices bold */
 }
