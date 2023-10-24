@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Door-to-Door Food Delivery</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
 </head>
+
+
+
 <body>
     <header>
-        <nav>
-            <div class="logo">Your Food Delivery</div>
+        <nav id = "navbar">
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
@@ -17,47 +20,100 @@
                 <li><a href="#">Contact</a></li>
             </ul>
             <div class="userprofile">
-                <button class="user-profile-button">Profile</button>
+                <button class="btn_profile">Profile</button>
+            </div>
         </nav>
     </header>
-    
-    <section class="hero">
-        <h1>Delicious Food Delivered to Your Doorstep</h1>
-        <p>Order your favorite meals from local restaurants and enjoy doorstep delivery.</p>
-        <a href="#" class="btn">Order Now</a>
+
+    <section id="home">
+        <h1 class="h-primary">Why Us ? </h1>
+        <p>We are a dedicated team that connects you with the best local restaurants for food delivery. </p>
+        <p>Whether you're craving pizza, sushi, or something else, we've got you covered.</p>
     </section>
 
-    <section class="menu">
-        <h2>Our Menu</h2>
+    <section id="services-container">
+        <h1 class="h-menu">OUR MENU</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Pizza</h2>
+                <p class="center">Savory pizza with a crispy, 
+                    chewy crust, rich tomato sauce, gooey mozzarella cheese
+                    , and your choice of delectable toppings. 
+                    A timeless classic for all pizza enthusiasts
+                </p>
+                <div class="price">Rs 1599</div>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Pasta</h2>
+                <p class="center">"Delicious pasta dishes crafted with premium ingredients 
+                    and a variety of mouthwatering sauces. A taste of Italy in every bite."
+                </p>
+                <div class="price">Rs 1999</div>
+            </div>
+            <div class="box">
+                <img src="img/4.png" alt="">
+                <h2 class="h-secondary center">Burger</h2>
+                <p class="center">Juicy, handcrafted burgers made from the finest ground beef, 
+                    topped with fresh, crisp veggies, melted
+                    cheese, and our special sauces. A burger lover's paradise.</p>
+                    <div class="price">Rs 1399</div>
+            </div>
 
-        <section class="menu-items">
-            <div class="menu-item">
-                <h3>Burger</h3>
-                <p class="price">$5.99</p>
+            <div class="box">
+                <img src="img/5.png" alt="">
+                <h2 class="h-secondary center">Steak</h2>
+                <p class="center">Juicy, handcrafted burgers made from the finest ground beef, 
+                    topped with fresh, crisp veggies, melted
+                    cheese, and our special sauces. That is surely what you need.</p>
+                    <div class="price">Rs 1299</div>
             </div>
-            <div class="menu-item">
-                <h3>Pizza</h3>
-                <p class="price">$8.99</p>
-            </div>
-            <div class="menu-item">
-                <h3>Sushi</h3>
-                <p class="price">$12.99</p>
-            </div>
-            <div class="menu-item">
-                <h3>Salad</h3>
-                <p class="price">$6.99</p>
-            </div>
-            <div class="menu-item">
-                <h3>Pasta</h3>
-                <p class="price">$10.99</p>
-            </div>
-            <div class="menu-item">
-                <h3>Steak</h3>
-                <p class="price">$15.99</p>
-            </div>
-        </section>
 
+        </div>
     </section>
+
+
+    <div id="services">
+        <div class="box">
+            <img src="img/1.png" alt="">
+            <h2 class="h-secondary center">Pizza</h2>
+            <p class="center">Savory pizza with a crispy, 
+                chewy crust, rich tomato sauce, gooey mozzarella cheese
+                , and your choice of delectable toppings. 
+                A timeless classic for all pizza enthusiasts
+            </p>
+            <div class="price">Rs 1099</div>
+        </div>
+        <div class="box">
+            <img src="img/2.png" alt="">
+            <h2 class="h-secondary center">Pasta</h2>
+            <p class="center">"Delicious pasta dishes crafted with premium ingredients 
+                and a variety of mouthwatering sauces. A taste of Italy in every bite."
+            </p>
+            <div class="price">Rs 1799</div>
+        </div>
+        <div class="box">
+            <img src="img/4.png" alt="">
+            <h2 class="h-secondary center">Burger</h2>
+            <p class="center">Juicy, handcrafted burgers made from the finest ground beef, 
+                topped with fresh, crisp veggies, melted
+                cheese, and our special sauces. A burger lover's paradise.</p>
+                <div class="price">Rs 1299</div>
+
+        </div>
+
+        <div class="box">
+            <img src="img/5.png" alt="">
+            <h2 class="h-secondary center">Zinger</h2>
+            <p class="center">Juicy, handcrafted burgers made from the finest ground beef, 
+                topped with fresh, crisp veggies, melted
+                cheese, and our special sauces. A burger lover's paradise.</p>
+                <div class="price">Rs 1899</div>
+        </div>
+
+    </div>
+</section>
     
     <section class="about">
         <h2>About Us</h2>
